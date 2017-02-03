@@ -1,51 +1,64 @@
 import React from 'react'
-import { View, Button } from 'react-native'
+import { View } from 'react-native'
 
 import BaseForm from '../BaseForm'
-import { Input } from '../../Structure'
+import { Input, Button } from '../../Structure'
 
 class Login extends BaseForm {
   login = () => {
     this.props.onLogin(this.state.userIdentification, this.state.password)
   }
 
-  renderResetPasswordButton = () => {
+  renderResetPasswordLink = () => {
     return (
       <Button
         onPress={this.props.onResetPasswordClick}
-        style={this.props.goToResetPasswordButtonStyle}
-        title={this.props.labels.forgotPassword}
+        style={this.props.loginResetPasswordLinkStyle}
+        textStyle={this.props.loginResetPasswordLinkTextStyle}
+        text={this.props.labels.forgotPassword}
       />
     )
   }
 
   render () {
     return (
-      <View style={this.props.style}>
+      <View style={this.props.loginFormWrapperStyle}>
         { this.renderLogo() }
 
-        <Input
-          onChangeText={this.handleInputChange('userIdentification')}
-          type='text'
-          label={this.props.labels.userIdentification}
-          style={this.props.inputStyle}
-        />
+        <View style={this.props.fieldsetWrapperStyle}>
+          <Input
+            onChangeText={this.handleInputChange('userIdentification')}
+            label={this.props.labels.userIdentification}
+            wrapperStyle={this.props.inputWrapperStyle}
+            style={this.props.inputStyle}
+            placeholderTextColor={this.props.inputPlaceholderTextColor}
+          />
 
-        <Input
-          onChangeText={this.handleInputChange('password')}
-          type='password'
-          label={this.props.labels.password}
-          style={this.props.inputStyle}
-        />
+          <Input
+            onChangeText={this.handleInputChange('password')}
+            secureTextEntry
+            label={this.props.labels.password}
+            wrapperStyle={this.props.inputWrapperStyle}
+            style={this.props.inputStyle}
+            placeholderTextColor={this.props.inputPlaceholderTextColor}
+          />
+        </View>
 
         {
-          this.props.haveResetPassword ? this.renderResetPasswordButton() : null
+          this.props.haveResetPassword ? this.renderResetPasswordLink() : null
         }
 
         <Button
           onPress={this.login}
-          style={this.props.buttonStyle}
-          title={this.props.labels.loginFormButton}
+          style={[
+            this.props.baseButtonStyle,
+            this.props.loginFormSubmitButtonStyle
+          ]}
+          textStyle={[
+            this.props.baseButtonTextStyle,
+            this.props.loginFormSubmitButtonTextStyle
+          ]}
+          text={this.props.labels.loginFormButton}
         />
 
       </View>

@@ -8,42 +8,72 @@ ShallowWrapper {
   "length": 1,
   "node": <View
     style={undefined}>
-    <Logo
-        style={undefined} />
-    <Input
-        label="Email"
-        onChangeText={[Function]}
-        style={undefined}
-        type="text" />
-    <Input
-        label="Password"
-        onChangeText={[Function]}
-        style={undefined}
-        type="password" />
+    <View
+        style={undefined}>
+        <Input
+            label="Email"
+            onChangeText={[Function]}
+            placeholderTextColor={undefined}
+            style={undefined}
+            wrapperStyle={undefined} />
+        <Input
+            label="Password"
+            onChangeText={[Function]}
+            placeholderTextColor={undefined}
+            secureTextEntry={true}
+            style={undefined}
+            wrapperStyle={undefined} />
+    </View>
     <Button
         onPress={[Function]}
-        style={undefined}
-        title="Login" />
+        style={
+            Array [
+                undefined,
+                undefined,
+              ]
+        }
+        text="Login"
+        textStyle={
+            Array [
+                undefined,
+                undefined,
+              ]
+        } />
 </View>,
   "nodes": Array [
     <View
       style={undefined}>
-      <Logo
-            style={undefined} />
-      <Input
-            label="Email"
-            onChangeText={[Function]}
-            style={undefined}
-            type="text" />
-      <Input
-            label="Password"
-            onChangeText={[Function]}
-            style={undefined}
-            type="password" />
+      <View
+            style={undefined}>
+            <Input
+                  label="Email"
+                  onChangeText={[Function]}
+                  placeholderTextColor={undefined}
+                  style={undefined}
+                  wrapperStyle={undefined} />
+            <Input
+                  label="Password"
+                  onChangeText={[Function]}
+                  placeholderTextColor={undefined}
+                  secureTextEntry={true}
+                  style={undefined}
+                  wrapperStyle={undefined} />
+      </View>
       <Button
             onPress={[Function]}
-            style={undefined}
-            title="Login" />
+            style={
+                  Array [
+                        undefined,
+                        undefined,
+                      ]
+            }
+            text="Login"
+            textStyle={
+                  Array [
+                        undefined,
+                        undefined,
+                      ]
+            } />
 </View>,
   ],
   "options": Object {},
@@ -82,7 +112,7 @@ ShallowWrapper {
         },
         "refs": Object {},
         "renderLogo": [Function],
-        "renderResetPasswordButton": [Function],
+        "renderResetPasswordLink": [Function],
         "state": Object {
           "password": "",
           "userIdentification": "",
@@ -107,41 +137,71 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <View
           style={undefined}>
-          <Logo
-                    style={undefined} />
-          <Input
-                    label="Email"
-                    onChangeText={[Function]}
-                    style={undefined}
-                    type="text" />
-          <Input
-                    label="Password"
-                    onChangeText={[Function]}
-                    style={undefined}
-                    type="password" />
+          <View
+                    style={undefined}>
+                    <Input
+                              label="Email"
+                              onChangeText={[Function]}
+                              placeholderTextColor={undefined}
+                              style={undefined}
+                              wrapperStyle={undefined} />
+                    <Input
+                              label="Password"
+                              onChangeText={[Function]}
+                              placeholderTextColor={undefined}
+                              secureTextEntry={true}
+                              style={undefined}
+                              wrapperStyle={undefined} />
+          </View>
           <Button
                     onPress={[Function]}
-                    style={undefined}
-                    title="Login" />
+                    style={
+                              Array [
+                                        undefined,
+                                        undefined,
+                                      ]
+                    }
+                    text="Login"
+                    textStyle={
+                              Array [
+                                        undefined,
+                                        undefined,
+                                      ]
+                    } />
 </View>,
         "_renderedOutput": <View
           style={undefined}>
-          <Logo
-                    style={undefined} />
-          <Input
-                    label="Email"
-                    onChangeText={[Function]}
-                    style={undefined}
-                    type="text" />
-          <Input
-                    label="Password"
-                    onChangeText={[Function]}
-                    style={undefined}
-                    type="password" />
+          <View
+                    style={undefined}>
+                    <Input
+                              label="Email"
+                              onChangeText={[Function]}
+                              placeholderTextColor={undefined}
+                              style={undefined}
+                              wrapperStyle={undefined} />
+                    <Input
+                              label="Password"
+                              onChangeText={[Function]}
+                              placeholderTextColor={undefined}
+                              secureTextEntry={true}
+                              style={undefined}
+                              wrapperStyle={undefined} />
+          </View>
           <Button
                     onPress={[Function]}
-                    style={undefined}
-                    title="Login" />
+                    style={
+                              Array [
+                                        undefined,
+                                        undefined,
+                                      ]
+                    }
+                    text="Login"
+                    textStyle={
+                              Array [
+                                        undefined,
+                                        undefined,
+                                      ]
+                    } />
 </View>,
       },
       "_renderedNodeType": 1,

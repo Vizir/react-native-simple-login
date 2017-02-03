@@ -1,8 +1,8 @@
 import React from 'react'
-import { View, Button } from 'react-native'
+import { View } from 'react-native'
 
 import BaseForm from '../BaseForm'
-import { Input } from '../../Structure'
+import { Input, Button } from '../../Structure'
 
 class ResetPassword extends BaseForm {
   resetPassword = () => {
@@ -11,20 +11,30 @@ class ResetPassword extends BaseForm {
 
   render () {
     return (
-      <View style={this.props.style}>
+      <View style={this.props.resetPasswordFormWrapperStyle}>
         { this.renderLogo() }
 
-        <Input
-          onChangeText={this.handleInputChange('userIdentification')}
-          type='text'
-          label={this.props.labels.userIdentification}
-          style={this.props.inputStyle}
-        />
+        <View style={this.props.fieldsetWrapperStyle}>
+          <Input
+            onChangeText={this.handleInputChange('userIdentification')}
+            label={this.props.labels.userIdentification}
+            wrapperStyle={this.props.inputWrapperStyle}
+            style={this.props.inputStyle}
+            placeholderTextColor={this.props.inputPlaceholderTextColor}
+          />
+        </View>
 
         <Button
           onPress={this.resetPassword}
-          style={this.props.buttonStyle}
-          title={this.props.labels.forgotPasswordFormButton}
+          style={[
+            this.props.baseButtonStyle,
+            this.props.resetPasswordFormSubmitButtonStyle
+          ]}
+          textStyle={[
+            this.props.baseButtonTextStyle,
+            this.props.resetPasswordFormSubmitButtonTextStyle
+          ]}
+          text={this.props.labels.forgotPasswordFormButton}
         />
 
       </View>

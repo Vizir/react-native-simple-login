@@ -3,7 +3,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import defaultLabels from '../../constants/defaultLabels'
-import Login from '.'
+import { LoginForm as Login } from '../'
 
 describe('Login Form', () => {
   it('can render correctly', () => {
@@ -23,7 +23,7 @@ describe('Login Form', () => {
       />
     )
 
-    const resetPasswordButton = wrapper.find({title: defaultLabels.forgotPassword})
+    const resetPasswordButton = wrapper.find({text: defaultLabels.forgotPassword})
 
     expect(resetPasswordButton.length).toEqual(1)
     resetPasswordButton.simulate('press')
@@ -62,7 +62,7 @@ describe('Login Form', () => {
     const passwordInput = wrapper.find({label: defaultLabels.password})
     passwordInput.simulate('changeText', 'Password')
 
-    const submitButton = wrapper.find({title: defaultLabels.loginFormButton})
+    const submitButton = wrapper.find({text: defaultLabels.loginFormButton})
     submitButton.simulate('press')
 
     expect(onLogin.mock.calls.length).toEqual(1)

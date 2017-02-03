@@ -1,9 +1,13 @@
 import React from 'react'
-import { View } from 'react-native'
+import { Image } from 'react-native'
 
 const Logo = (props) => {
   return (
-    <View />
+    <Image
+      resizeMode='contain'
+      source={props.logoImage}
+      style={props.style}
+    />
   )
 }
 
