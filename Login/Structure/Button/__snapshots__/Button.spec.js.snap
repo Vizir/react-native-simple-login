@@ -8,6 +8,7 @@ ShallowWrapper {
   "length": 1,
   "node": <TouchableOpacity
     activeOpacity={0.2}
+    focusedOpacity={0.7}
     onPress={[Function]}
     style={undefined}>
     <Text
@@ -21,6 +22,7 @@ ShallowWrapper {
   "nodes": Array [
     <TouchableOpacity
       activeOpacity={0.2}
+      focusedOpacity={0.7}
       onPress={[Function]}
       style={undefined}>
       <Text
@@ -72,6 +74,7 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <TouchableOpacity
           activeOpacity={0.2}
+          focusedOpacity={0.7}
           onPress={[Function]}
           style={undefined}>
           <Text
@@ -84,6 +87,7 @@ ShallowWrapper {
 </TouchableOpacity>,
         "_renderedOutput": <TouchableOpacity
           activeOpacity={0.2}
+          focusedOpacity={0.7}
           onPress={[Function]}
           style={undefined}>
           <Text
