@@ -73,6 +73,9 @@ Login.propTypes = {
   onResetPassword: React.PropTypes.func,
 
   inputPlaceholderTextColor: React.PropTypes.string,
+
+  backButtonStyle: React.PropTypes.any,
+  backButtonTextStyle: React.PropTypes.any,
   baseButtonStyle: React.PropTypes.any,
   baseButtonTextStyle: React.PropTypes.any,
   goToResetPasswordLinkStyle: React.PropTypes.any,
@@ -92,6 +95,8 @@ Login.defaultProps = {
   labels: {},
   haveResetPassword: false,
   inputPlaceholderTextColor: '#ccc',
+  backButtonStyle: DefaultStyles.backButton,
+  backButtonTextStyle: DefaultStyles.backButtonText,
   baseButtonStyle: DefaultStyles.baseButton,
   baseButtonTextStyle: DefaultStyles.baseButtonText,
   fieldsetWrapperStyle: DefaultStyles.fieldsetWrapper,

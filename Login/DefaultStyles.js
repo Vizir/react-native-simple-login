@@ -21,6 +21,13 @@ export default StyleSheet.create({
     color: '#333',
     alignSelf: 'stretch'
   },
+  backButton: {
+    height: 40
+  },
+  backButtonText: {
+    fontSize: 30,
+    color: '#6C7A89'
+  },
   baseButton: {
     height: 40,
     backgroundColor: '#446cb3',
