@@ -5,7 +5,7 @@ const Logo = (props) => {
   return (
     <Image
       resizeMode='contain'
-      source={props.logoImage}
+      source={props.image}
       style={props.style}
     />
   )

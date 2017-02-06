@@ -8,12 +8,12 @@ ShallowWrapper {
   "length": 1,
   "node": <Image
     resizeMode="contain"
-    source="fakeImage"
+    source={undefined}
     style={undefined} />,
   "nodes": Array [
     <Image
       resizeMode="contain"
-      source="fakeImage"
+      source={undefined}
       style={undefined} />,
   ],
   "options": Object {},
@@ -54,11 +54,11 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <Image
           resizeMode="contain"
-          source="fakeImage"
+          source={undefined}
           style={undefined} />,
         "_renderedOutput": <Image
           resizeMode="contain"
-          source="fakeImage"
+          source={undefined}
           style={undefined} />,
       },
       "_renderedNodeType": 1,

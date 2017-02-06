@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 export default StyleSheet.create({
   logo: {
     resizeMode: 'contain',
-    alignSelf: 'stretch',
+    alignSelf: 'center',
     height: 150,
     marginBottom: 10
   },
