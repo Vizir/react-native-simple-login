@@ -100,7 +100,6 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "handleInputChange": [Function],
-        "login": [Function],
         "props": Object {
           "labels": Object {
             "back": "Back",
@@ -119,6 +118,7 @@ ShallowWrapper {
           "password": "",
           "userIdentification": "",
         },
+        "submit": [Function],
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],

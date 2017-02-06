@@ -5,7 +5,7 @@ import BaseForm from '../BaseForm'
 import { Input, Button } from '../../Structure'
 
 class Login extends BaseForm {
-  login = () => {
+  submit = () => {
     this.props.onLogin(this.state.userIdentification, this.state.password)
   }
 
@@ -49,7 +49,7 @@ class Login extends BaseForm {
         }
 
         <Button
-          onPress={this.login}
+          onPress={this.submit}
           style={[
             this.props.baseButtonStyle,
             this.props.loginFormSubmitButtonStyle

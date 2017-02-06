@@ -5,7 +5,7 @@ import BaseForm from '../BaseForm'
 import { Input, Button } from '../../Structure'
 
 class ResetPassword extends BaseForm {
-  resetPassword = () => {
+  submit = () => {
     this.props.onResetPassword(this.state.userIdentification)
   }
 
@@ -32,7 +32,7 @@ class ResetPassword extends BaseForm {
         </View>
 
         <Button
-          onPress={this.resetPassword}
+          onPress={this.submit}
           style={[
             this.props.baseButtonStyle,
             this.props.resetPasswordFormSubmitButtonStyle
