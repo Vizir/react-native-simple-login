@@ -16,7 +16,7 @@ class BaseForm extends Component {
   }
 
   renderLogo = () => {
-    if (this.props.logoImage) {
+    if (this.props.logoImage && this.props.showLogo) {
       return <Logo style={this.props.logoStyle} image={this.props.logoImage} />
     }
 

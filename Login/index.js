@@ -41,6 +41,7 @@ class Login extends Component {
         labels={this.getLabels()}
         onBackClick={this.changeToLoginForm}
         onResetPassword={this.onResetPassword}
+        showLogo={this.props.showLogoOnResetPassword}
       />
     )
   }
@@ -53,6 +54,7 @@ class Login extends Component {
         labels={this.getLabels()}
         onResetPasswordClick={this.changeToResetPasswordForm}
         onLogin={this.onLogin}
+        showLogo={this.props.showLogoOnLogin}
       />
     )
   }
@@ -72,6 +74,8 @@ Login.propTypes = {
   onLogin: React.PropTypes.func.isRequired,
   onResetPassword: React.PropTypes.func,
   passwordInputIcon: React.PropTypes.any,
+  showLogoOnLogin: React.PropTypes.bool,
+  showLogoOnResetPassword: React.PropTypes.bool,
   userIdentificationInputIcon: React.PropTypes.any,
   inputPlaceholderTextColor: React.PropTypes.string,
 
@@ -96,6 +100,8 @@ Login.propTypes = {
 
 Login.defaultProps = {
   labels: {},
+  showLogoOnLogin: true,
+  showLogoOnResetPassword: true,
   inputPlaceholderTextColor: '#ccc',
   userIdentificationInputIcon: require('./Images/email_icon.png'),
   passwordInputIcon: require('./Images/password_icon.png'),
