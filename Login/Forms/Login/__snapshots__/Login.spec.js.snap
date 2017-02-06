@@ -85,6 +85,7 @@ ShallowWrapper {
       "_currentElement": <Login
         labels={
                 Object {
+                        "back": "Back",
                         "forgotPassword": "Forgot password",
                         "forgotPasswordFormButton": "Send",
                         "loginFormButton": "Login",
@@ -102,6 +103,7 @@ ShallowWrapper {
         "login": [Function],
         "props": Object {
           "labels": Object {
+            "back": "Back",
             "forgotPassword": "Forgot password",
             "forgotPasswordFormButton": "Send",
             "loginFormButton": "Login",
@@ -216,6 +218,7 @@ ShallowWrapper {
   "unrendered": <Login
     labels={
         Object {
+            "back": "Back",
             "forgotPassword": "Forgot password",
             "forgotPasswordFormButton": "Send",
             "loginFormButton": "Login",

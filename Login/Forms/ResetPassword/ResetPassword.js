@@ -16,7 +16,7 @@ class ResetPassword extends BaseForm {
           onPress={this.props.onBackClick}
           style={this.props.backButtonStyle}
           textStyle={this.props.backButtonTextStyle}
-          text='⬅'
+          text={this.props.labels.back}
         />
 
         { this.renderLogo() }

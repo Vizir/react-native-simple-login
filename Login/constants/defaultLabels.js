@@ -4,5 +4,6 @@ export default {
   password: 'Password',
   forgotPassword: 'Forgot password',
   loginFormButton: 'Login',
-  forgotPasswordFormButton: 'Send'
+  forgotPasswordFormButton: 'Send',
+  back: 'Back'
 }
