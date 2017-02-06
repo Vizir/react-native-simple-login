@@ -47,13 +47,11 @@ Will output:
 | onLogin                                | (required) Function to call when the user tries to login |
 | onResetPassword                        | Function to call when the user tries to reset password |
 | labels                                 | An object with the labels to use on the component, if a label is missing, the default will be used. Available labels are: rememberMe, userIdentification, password, forgotPassword, loginFormButton, forgotPasswordFormButton, back. Example: `{ userIdentification: 'Email' }` |
-
 | logoImage                              | The image to be used as the logo. Will appear at the top of the login and reset password forms |
 | passwordInputIcon | The image to be used as the password input icon |
 | showLogoOnLogin | If true, will show the logo image on the login form. Defaults to true. |
 | showLogoOnResetPassword | If true, will show the logo image on the reset password form. Defaults to true. |
 | userIdentificationInputIcon | The image to be used as the user identification input icon |
-
 | inputPlaceholderTextColor              | Color to use for the input placeholders |
 | backButtonStyle                        | Reset password back button style |
 | backButtonTextStyle                    | Reset password back button text style |

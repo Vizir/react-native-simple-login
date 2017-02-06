@@ -123,6 +123,9 @@ ShallowWrapper {
             "paddingHorizontal": 15,
           }
     }
+    showLogo={true}
+    showLogoOnLogin={true}
+    showLogoOnResetPassword={true}
     userIdentificationInputIcon={1} />,
   "nodes": Array [
     <Login
@@ -242,6 +245,9 @@ ShallowWrapper {
                   "paddingHorizontal": 15,
                 }
       }
+      showLogo={true}
+      showLogoOnLogin={true}
+      showLogoOnResetPassword={true}
       userIdentificationInputIcon={1} />,
   ],
   "options": Object {},
@@ -355,6 +361,8 @@ ShallowWrapper {
                         "paddingHorizontal": 15,
                       }
         }
+        showLogoOnLogin={true}
+        showLogoOnResetPassword={true}
         userIdentificationInputIcon={1} />,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -443,6 +451,8 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           },
+          "showLogoOnLogin": true,
+          "showLogoOnResetPassword": true,
           "userIdentificationInputIcon": 1,
         },
         "refs": Object {},
@@ -586,6 +596,9 @@ ShallowWrapper {
                               "paddingHorizontal": 15,
                             }
           }
+          showLogo={true}
+          showLogoOnLogin={true}
+          showLogoOnResetPassword={true}
           userIdentificationInputIcon={1} />,
         "_renderedOutput": <Login
           backButtonStyle={
@@ -704,6 +717,9 @@ ShallowWrapper {
                               "paddingHorizontal": 15,
                             }
           }
+          showLogo={true}
+          showLogoOnLogin={true}
+          showLogoOnResetPassword={true}
           userIdentificationInputIcon={1} />,
       },
       "_renderedNodeType": 1,
@@ -820,6 +836,8 @@ ShallowWrapper {
             "paddingHorizontal": 15,
           }
     }
+    showLogoOnLogin={true}
+    showLogoOnResetPassword={true}
     userIdentificationInputIcon={1} />,
 }
 `;
@@ -949,6 +967,9 @@ ShallowWrapper {
             "paddingHorizontal": 15,
           }
     }
+    showLogo={true}
+    showLogoOnLogin={true}
+    showLogoOnResetPassword={true}
     userIdentificationInputIcon={1} />,
   "nodes": Array [
     <ResetPassword
@@ -1068,6 +1089,9 @@ ShallowWrapper {
                   "paddingHorizontal": 15,
                 }
       }
+      showLogo={true}
+      showLogoOnLogin={true}
+      showLogoOnResetPassword={true}
       userIdentificationInputIcon={1} />,
   ],
   "options": Object {},
@@ -1182,6 +1206,8 @@ ShallowWrapper {
                         "paddingHorizontal": 15,
                       }
         }
+        showLogoOnLogin={true}
+        showLogoOnResetPassword={true}
         userIdentificationInputIcon={1} />,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -1271,6 +1297,8 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           },
+          "showLogoOnLogin": true,
+          "showLogoOnResetPassword": true,
           "userIdentificationInputIcon": 1,
         },
         "refs": Object {},
@@ -1414,6 +1442,9 @@ ShallowWrapper {
                               "paddingHorizontal": 15,
                             }
           }
+          showLogo={true}
+          showLogoOnLogin={true}
+          showLogoOnResetPassword={true}
           userIdentificationInputIcon={1} />,
         "_renderedOutput": <ResetPassword
           backButtonStyle={
@@ -1532,6 +1563,9 @@ ShallowWrapper {
                               "paddingHorizontal": 15,
                             }
           }
+          showLogo={true}
+          showLogoOnLogin={true}
+          showLogoOnResetPassword={true}
           userIdentificationInputIcon={1} />,
       },
       "_renderedNodeType": 1,
@@ -1649,6 +1683,8 @@ ShallowWrapper {
             "paddingHorizontal": 15,
           }
     }
+    showLogoOnLogin={true}
+    showLogoOnResetPassword={true}
     userIdentificationInputIcon={1} />,
 }
 `;
