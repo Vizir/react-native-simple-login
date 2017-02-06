@@ -41,12 +41,22 @@ ShallowWrapper {
           }
     }
     haveResetPassword={false}
+    inputIconStyle={
+        Object {
+            "bottom": 11,
+            "height": 20,
+            "position": "absolute",
+            "resizeMode": "contain",
+            "width": 20,
+          }
+    }
     inputPlaceholderTextColor="#ccc"
     inputStyle={
         Object {
             "alignSelf": "stretch",
             "color": "#333",
             "height": 40,
+            "paddingLeft": 30,
           }
     }
     inputWrapperStyle={
@@ -99,6 +109,7 @@ ShallowWrapper {
     }
     onLogin={[Function]}
     onResetPasswordClick={[Function]}
+    passwordInputIcon={1}
     resetPasswordFormSubmitButtonStyle={
         Object {
             "marginTop": 20,
@@ -111,7 +122,8 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           }
-    } />,
+    }
+    userIdentificationInputIcon={1} />,
   "nodes": Array [
     <Login
       backButtonStyle={
@@ -148,12 +160,22 @@ ShallowWrapper {
                 }
       }
       haveResetPassword={false}
+      inputIconStyle={
+            Object {
+                  "bottom": 11,
+                  "height": 20,
+                  "position": "absolute",
+                  "resizeMode": "contain",
+                  "width": 20,
+                }
+      }
       inputPlaceholderTextColor="#ccc"
       inputStyle={
             Object {
                   "alignSelf": "stretch",
                   "color": "#333",
                   "height": 40,
+                  "paddingLeft": 30,
                 }
       }
       inputWrapperStyle={
@@ -206,6 +228,7 @@ ShallowWrapper {
       }
       onLogin={[Function]}
       onResetPasswordClick={[Function]}
+      passwordInputIcon={1}
       resetPasswordFormSubmitButtonStyle={
             Object {
                   "marginTop": 20,
@@ -218,7 +241,8 @@ ShallowWrapper {
                   "justifyContent": "center",
                   "paddingHorizontal": 15,
                 }
-      } />,
+      }
+      userIdentificationInputIcon={1} />,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -260,12 +284,22 @@ ShallowWrapper {
                         "borderRadius": 2,
                       }
         }
+        inputIconStyle={
+                Object {
+                        "bottom": 11,
+                        "height": 20,
+                        "position": "absolute",
+                        "resizeMode": "contain",
+                        "width": 20,
+                      }
+        }
         inputPlaceholderTextColor="#ccc"
         inputStyle={
                 Object {
                         "alignSelf": "stretch",
                         "color": "#333",
                         "height": 40,
+                        "paddingLeft": 30,
                       }
         }
         inputWrapperStyle={
@@ -307,6 +341,7 @@ ShallowWrapper {
                       }
         }
         onLogin={[Function]}
+        passwordInputIcon={1}
         resetPasswordFormSubmitButtonStyle={
                 Object {
                         "marginTop": 20,
@@ -319,7 +354,8 @@ ShallowWrapper {
                         "justifyContent": "center",
                         "paddingHorizontal": 15,
                       }
-        } />,
+        }
+        userIdentificationInputIcon={1} />,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": Login {
@@ -354,11 +390,19 @@ ShallowWrapper {
             "alignSelf": "stretch",
             "borderRadius": 2,
           },
+          "inputIconStyle": Object {
+            "bottom": 11,
+            "height": 20,
+            "position": "absolute",
+            "resizeMode": "contain",
+            "width": 20,
+          },
           "inputPlaceholderTextColor": "#ccc",
           "inputStyle": Object {
             "alignSelf": "stretch",
             "color": "#333",
             "height": 40,
+            "paddingLeft": 30,
           },
           "inputWrapperStyle": Object {
             "borderBottomColor": "#ccc",
@@ -389,6 +433,7 @@ ShallowWrapper {
             "resizeMode": "contain",
           },
           "onLogin": [Function],
+          "passwordInputIcon": 1,
           "resetPasswordFormSubmitButtonStyle": Object {
             "marginTop": 20,
           },
@@ -398,6 +443,7 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           },
+          "userIdentificationInputIcon": 1,
         },
         "refs": Object {},
         "renderLoginForm": [Function],
@@ -458,12 +504,22 @@ ShallowWrapper {
                             }
           }
           haveResetPassword={false}
+          inputIconStyle={
+                    Object {
+                              "bottom": 11,
+                              "height": 20,
+                              "position": "absolute",
+                              "resizeMode": "contain",
+                              "width": 20,
+                            }
+          }
           inputPlaceholderTextColor="#ccc"
           inputStyle={
                     Object {
                               "alignSelf": "stretch",
                               "color": "#333",
                               "height": 40,
+                              "paddingLeft": 30,
                             }
           }
           inputWrapperStyle={
@@ -516,6 +572,7 @@ ShallowWrapper {
           }
           onLogin={[Function]}
           onResetPasswordClick={[Function]}
+          passwordInputIcon={1}
           resetPasswordFormSubmitButtonStyle={
                     Object {
                               "marginTop": 20,
@@ -528,7 +585,8 @@ ShallowWrapper {
                               "justifyContent": "center",
                               "paddingHorizontal": 15,
                             }
-          } />,
+          }
+          userIdentificationInputIcon={1} />,
         "_renderedOutput": <Login
           backButtonStyle={
                     Object {
@@ -564,12 +622,22 @@ ShallowWrapper {
                             }
           }
           haveResetPassword={false}
+          inputIconStyle={
+                    Object {
+                              "bottom": 11,
+                              "height": 20,
+                              "position": "absolute",
+                              "resizeMode": "contain",
+                              "width": 20,
+                            }
+          }
           inputPlaceholderTextColor="#ccc"
           inputStyle={
                     Object {
                               "alignSelf": "stretch",
                               "color": "#333",
                               "height": 40,
+                              "paddingLeft": 30,
                             }
           }
           inputWrapperStyle={
@@ -622,6 +690,7 @@ ShallowWrapper {
           }
           onLogin={[Function]}
           onResetPasswordClick={[Function]}
+          passwordInputIcon={1}
           resetPasswordFormSubmitButtonStyle={
                     Object {
                               "marginTop": 20,
@@ -634,7 +703,8 @@ ShallowWrapper {
                               "justifyContent": "center",
                               "paddingHorizontal": 15,
                             }
-          } />,
+          }
+          userIdentificationInputIcon={1} />,
       },
       "_renderedNodeType": 1,
       "_rootNodeID": 0,
@@ -679,12 +749,22 @@ ShallowWrapper {
             "borderRadius": 2,
           }
     }
+    inputIconStyle={
+        Object {
+            "bottom": 11,
+            "height": 20,
+            "position": "absolute",
+            "resizeMode": "contain",
+            "width": 20,
+          }
+    }
     inputPlaceholderTextColor="#ccc"
     inputStyle={
         Object {
             "alignSelf": "stretch",
             "color": "#333",
             "height": 40,
+            "paddingLeft": 30,
           }
     }
     inputWrapperStyle={
@@ -726,6 +806,7 @@ ShallowWrapper {
           }
     }
     onLogin={[Function]}
+    passwordInputIcon={1}
     resetPasswordFormSubmitButtonStyle={
         Object {
             "marginTop": 20,
@@ -738,7 +819,8 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           }
-    } />,
+    }
+    userIdentificationInputIcon={1} />,
 }
 `;
 
@@ -784,12 +866,22 @@ ShallowWrapper {
             "borderRadius": 2,
           }
     }
+    inputIconStyle={
+        Object {
+            "bottom": 11,
+            "height": 20,
+            "position": "absolute",
+            "resizeMode": "contain",
+            "width": 20,
+          }
+    }
     inputPlaceholderTextColor="#ccc"
     inputStyle={
         Object {
             "alignSelf": "stretch",
             "color": "#333",
             "height": 40,
+            "paddingLeft": 30,
           }
     }
     inputWrapperStyle={
@@ -843,6 +935,7 @@ ShallowWrapper {
     onBackClick={[Function]}
     onLogin={[Function]}
     onResetPassword={[Function]}
+    passwordInputIcon={1}
     resetPasswordFormSubmitButtonStyle={
         Object {
             "marginTop": 20,
@@ -855,7 +948,8 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           }
-    } />,
+    }
+    userIdentificationInputIcon={1} />,
   "nodes": Array [
     <ResetPassword
       backButtonStyle={
@@ -891,12 +985,22 @@ ShallowWrapper {
                   "borderRadius": 2,
                 }
       }
+      inputIconStyle={
+            Object {
+                  "bottom": 11,
+                  "height": 20,
+                  "position": "absolute",
+                  "resizeMode": "contain",
+                  "width": 20,
+                }
+      }
       inputPlaceholderTextColor="#ccc"
       inputStyle={
             Object {
                   "alignSelf": "stretch",
                   "color": "#333",
                   "height": 40,
+                  "paddingLeft": 30,
                 }
       }
       inputWrapperStyle={
@@ -950,6 +1054,7 @@ ShallowWrapper {
       onBackClick={[Function]}
       onLogin={[Function]}
       onResetPassword={[Function]}
+      passwordInputIcon={1}
       resetPasswordFormSubmitButtonStyle={
             Object {
                   "marginTop": 20,
@@ -962,7 +1067,8 @@ ShallowWrapper {
                   "justifyContent": "center",
                   "paddingHorizontal": 15,
                 }
-      } />,
+      }
+      userIdentificationInputIcon={1} />,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -1004,12 +1110,22 @@ ShallowWrapper {
                         "borderRadius": 2,
                       }
         }
+        inputIconStyle={
+                Object {
+                        "bottom": 11,
+                        "height": 20,
+                        "position": "absolute",
+                        "resizeMode": "contain",
+                        "width": 20,
+                      }
+        }
         inputPlaceholderTextColor="#ccc"
         inputStyle={
                 Object {
                         "alignSelf": "stretch",
                         "color": "#333",
                         "height": 40,
+                        "paddingLeft": 30,
                       }
         }
         inputWrapperStyle={
@@ -1052,6 +1168,7 @@ ShallowWrapper {
         }
         onLogin={[Function]}
         onResetPassword={[Function]}
+        passwordInputIcon={1}
         resetPasswordFormSubmitButtonStyle={
                 Object {
                         "marginTop": 20,
@@ -1064,7 +1181,8 @@ ShallowWrapper {
                         "justifyContent": "center",
                         "paddingHorizontal": 15,
                       }
-        } />,
+        }
+        userIdentificationInputIcon={1} />,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": Login {
@@ -1099,11 +1217,19 @@ ShallowWrapper {
             "alignSelf": "stretch",
             "borderRadius": 2,
           },
+          "inputIconStyle": Object {
+            "bottom": 11,
+            "height": 20,
+            "position": "absolute",
+            "resizeMode": "contain",
+            "width": 20,
+          },
           "inputPlaceholderTextColor": "#ccc",
           "inputStyle": Object {
             "alignSelf": "stretch",
             "color": "#333",
             "height": 40,
+            "paddingLeft": 30,
           },
           "inputWrapperStyle": Object {
             "borderBottomColor": "#ccc",
@@ -1135,6 +1261,7 @@ ShallowWrapper {
           },
           "onLogin": [Function],
           "onResetPassword": [Function],
+          "passwordInputIcon": 1,
           "resetPasswordFormSubmitButtonStyle": Object {
             "marginTop": 20,
           },
@@ -1144,6 +1271,7 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           },
+          "userIdentificationInputIcon": 1,
         },
         "refs": Object {},
         "renderLoginForm": [Function],
@@ -1203,12 +1331,22 @@ ShallowWrapper {
                               "borderRadius": 2,
                             }
           }
+          inputIconStyle={
+                    Object {
+                              "bottom": 11,
+                              "height": 20,
+                              "position": "absolute",
+                              "resizeMode": "contain",
+                              "width": 20,
+                            }
+          }
           inputPlaceholderTextColor="#ccc"
           inputStyle={
                     Object {
                               "alignSelf": "stretch",
                               "color": "#333",
                               "height": 40,
+                              "paddingLeft": 30,
                             }
           }
           inputWrapperStyle={
@@ -1262,6 +1400,7 @@ ShallowWrapper {
           onBackClick={[Function]}
           onLogin={[Function]}
           onResetPassword={[Function]}
+          passwordInputIcon={1}
           resetPasswordFormSubmitButtonStyle={
                     Object {
                               "marginTop": 20,
@@ -1274,7 +1413,8 @@ ShallowWrapper {
                               "justifyContent": "center",
                               "paddingHorizontal": 15,
                             }
-          } />,
+          }
+          userIdentificationInputIcon={1} />,
         "_renderedOutput": <ResetPassword
           backButtonStyle={
                     Object {
@@ -1309,12 +1449,22 @@ ShallowWrapper {
                               "borderRadius": 2,
                             }
           }
+          inputIconStyle={
+                    Object {
+                              "bottom": 11,
+                              "height": 20,
+                              "position": "absolute",
+                              "resizeMode": "contain",
+                              "width": 20,
+                            }
+          }
           inputPlaceholderTextColor="#ccc"
           inputStyle={
                     Object {
                               "alignSelf": "stretch",
                               "color": "#333",
                               "height": 40,
+                              "paddingLeft": 30,
                             }
           }
           inputWrapperStyle={
@@ -1368,6 +1518,7 @@ ShallowWrapper {
           onBackClick={[Function]}
           onLogin={[Function]}
           onResetPassword={[Function]}
+          passwordInputIcon={1}
           resetPasswordFormSubmitButtonStyle={
                     Object {
                               "marginTop": 20,
@@ -1380,7 +1531,8 @@ ShallowWrapper {
                               "justifyContent": "center",
                               "paddingHorizontal": 15,
                             }
-          } />,
+          }
+          userIdentificationInputIcon={1} />,
       },
       "_renderedNodeType": 1,
       "_rootNodeID": 0,
@@ -1425,12 +1577,22 @@ ShallowWrapper {
             "borderRadius": 2,
           }
     }
+    inputIconStyle={
+        Object {
+            "bottom": 11,
+            "height": 20,
+            "position": "absolute",
+            "resizeMode": "contain",
+            "width": 20,
+          }
+    }
     inputPlaceholderTextColor="#ccc"
     inputStyle={
         Object {
             "alignSelf": "stretch",
             "color": "#333",
             "height": 40,
+            "paddingLeft": 30,
           }
     }
     inputWrapperStyle={
@@ -1473,6 +1635,7 @@ ShallowWrapper {
     }
     onLogin={[Function]}
     onResetPassword={[Function]}
+    passwordInputIcon={1}
     resetPasswordFormSubmitButtonStyle={
         Object {
             "marginTop": 20,
@@ -1485,6 +1648,7 @@ ShallowWrapper {
             "justifyContent": "center",
             "paddingHorizontal": 15,
           }
-    } />,
+    }
+    userIdentificationInputIcon={1} />,
 }
 `;

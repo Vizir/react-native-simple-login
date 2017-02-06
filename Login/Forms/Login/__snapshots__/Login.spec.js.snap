@@ -11,12 +11,16 @@ ShallowWrapper {
     <View
         style={undefined}>
         <Input
+            icon={undefined}
+            iconStyle={undefined}
             label="Email"
             onChangeText={[Function]}
             placeholderTextColor={undefined}
             style={undefined}
             wrapperStyle={undefined} />
         <Input
+            icon={undefined}
+            iconStyle={undefined}
             label="Password"
             onChangeText={[Function]}
             placeholderTextColor={undefined}
@@ -46,12 +50,16 @@ ShallowWrapper {
       <View
             style={undefined}>
             <Input
+                  icon={undefined}
+                  iconStyle={undefined}
                   label="Email"
                   onChangeText={[Function]}
                   placeholderTextColor={undefined}
                   style={undefined}
                   wrapperStyle={undefined} />
             <Input
+                  icon={undefined}
+                  iconStyle={undefined}
                   label="Password"
                   onChangeText={[Function]}
                   placeholderTextColor={undefined}
@@ -142,12 +150,16 @@ ShallowWrapper {
           <View
                     style={undefined}>
                     <Input
+                              icon={undefined}
+                              iconStyle={undefined}
                               label="Email"
                               onChangeText={[Function]}
                               placeholderTextColor={undefined}
                               style={undefined}
                               wrapperStyle={undefined} />
                     <Input
+                              icon={undefined}
+                              iconStyle={undefined}
                               label="Password"
                               onChangeText={[Function]}
                               placeholderTextColor={undefined}
@@ -176,12 +188,16 @@ ShallowWrapper {
           <View
                     style={undefined}>
                     <Input
+                              icon={undefined}
+                              iconStyle={undefined}
                               label="Email"
                               onChangeText={[Function]}
                               placeholderTextColor={undefined}
                               style={undefined}
                               wrapperStyle={undefined} />
                     <Input
+                              icon={undefined}
+                              iconStyle={undefined}
                               label="Password"
                               onChangeText={[Function]}
                               placeholderTextColor={undefined}

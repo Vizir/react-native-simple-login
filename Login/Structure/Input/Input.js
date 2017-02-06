@@ -1,9 +1,15 @@
 import React from 'react'
-import { View, TextInput } from 'react-native'
+import { View, TextInput, Image } from 'react-native'
 
 const Input = (props) => {
+  const renderIcon = () => {
+    return <Image source={props.icon} style={props.iconStyle} />
+  }
+
   return (
     <View style={props.wrapperStyle}>
+      {props.icon ? renderIcon() : null}
+
       <TextInput
         {...props}
         placeholder={props.label}

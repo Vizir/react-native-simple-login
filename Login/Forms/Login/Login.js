@@ -27,6 +27,8 @@ class Login extends BaseForm {
 
         <View style={this.props.fieldsetWrapperStyle}>
           <Input
+            icon={this.props.userIdentificationInputIcon}
+            iconStyle={this.props.inputIconStyle}
             onChangeText={this.handleInputChange('userIdentification')}
             label={this.props.labels.userIdentification}
             wrapperStyle={this.props.inputWrapperStyle}
@@ -35,6 +37,8 @@ class Login extends BaseForm {
           />
 
           <Input
+            icon={this.props.passwordInputIcon}
+            iconStyle={this.props.inputIconStyle}
             onChangeText={this.handleInputChange('password')}
             secureTextEntry
             label={this.props.labels.password}

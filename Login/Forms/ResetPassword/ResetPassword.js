@@ -23,6 +23,8 @@ class ResetPassword extends BaseForm {
 
         <View style={this.props.fieldsetWrapperStyle}>
           <Input
+            icon={this.props.userIdentificationInputIcon}
+            iconStyle={this.props.inputIconStyle}
             onChangeText={this.handleInputChange('userIdentification')}
             label={this.props.labels.userIdentification}
             wrapperStyle={this.props.inputWrapperStyle}

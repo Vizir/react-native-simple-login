@@ -19,7 +19,15 @@ export default StyleSheet.create({
   input: {
     height: 40,
     color: '#333',
+    paddingLeft: 30,
     alignSelf: 'stretch'
+  },
+  inputIcon: {
+    resizeMode: 'contain',
+    width: 20,
+    height: 20,
+    position: 'absolute',
+    bottom: 11
   },
   backButton: {
     height: 40
