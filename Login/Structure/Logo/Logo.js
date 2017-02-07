@@ -11,4 +11,9 @@ const Logo = (props) => {
   )
 }
 
+Logo.propTypes = {
+  style: React.PropTypes.any,
+  image: React.PropTypes.any
+}
+
 export default Logo

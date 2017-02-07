@@ -19,4 +19,11 @@ const Input = (props) => {
   )
 }
 
+Input.propTypes = {
+  icon: React.PropTypes.any,
+  iconStyle: React.PropTypes.any,
+  label: React.PropTypes.string,
+  wrapperStyle: React.PropTypes.any
+}
+
 export default Input

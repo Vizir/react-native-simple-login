@@ -24,4 +24,10 @@ class BaseForm extends Component {
   }
 }
 
+BaseForm.propTypes = {
+  logoStyle: React.PropTypes.any,
+  logoImage: React.PropTypes.any,
+  showLogo: React.PropTypes.bool
+}
+
 export default BaseForm

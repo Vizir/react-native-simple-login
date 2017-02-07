@@ -31,4 +31,25 @@ describe('Reset Password Form', () => {
     expect(onResetPassword.mock.calls.length).toEqual(1)
     expect(onResetPassword.mock.calls[0]).toEqual(['some@email.com'])
   })
+
+  it('only renders the logo if there is one and it should be rendered', () => {
+    const wrapper = shallow(
+      <ResetPassword
+        labels={defaultLabels}
+        onResetPassword={jest.fn()}
+      />
+    )
+    expect(wrapper.find('Logo').length).toEqual(0)
+
+    wrapper.setProps({logoImage: 'fakeImage', showLogo: false})
+    expect(wrapper.find('Logo').length).toEqual(0)
+
+    wrapper.setProps({logoImage: null, showLogo: true})
+    expect(wrapper.find('Logo').length).toEqual(0)
+
+    wrapper.setProps({logoImage: 'fakeImage', showLogo: true})
+    expect(wrapper.find('Logo').length).toEqual(1)
+
+    expect(wrapper).toMatchSnapshot()
+  })
 })

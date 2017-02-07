@@ -31,6 +31,7 @@ describe('Login component', () => {
           onPress={() => props.onLogin('email', 'password')} />
       )
     }
+    Forms.LoginForm.displayName = 'LoginForm'
 
     const onLogin = jest.fn()
     const wrapper = shallow(
@@ -51,6 +52,7 @@ describe('Login component', () => {
           onPress={() => props.onResetPassword('email')} />
       )
     }
+    Forms.ResetPasswordForm.displayName = 'ResetPasswordForm'
 
     const onResetPassword = jest.fn()
     const wrapper = shallow(
@@ -74,6 +76,7 @@ describe('Login component', () => {
             onPress={() => props.onResetPasswordClick()} />
         )
       }
+      Forms.LoginForm.displayName = 'LoginForm'
 
       const wrapper = shallow(
         <Login onLogin={jest.fn()} onResetPassword={jest.fn()} />
@@ -93,6 +96,7 @@ describe('Login component', () => {
             onPress={() => props.onResetPassword('email')} />
         )
       }
+      Forms.ResetPasswordForm.displayName = 'ResetPasswordForm'
 
       const wrapper = shallow(
         <Login onLogin={jest.fn()} onResetPassword={jest.fn()} />

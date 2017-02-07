@@ -11,4 +11,11 @@ const Button = (props) => {
   )
 }
 
+Button.propTypes = {
+  onPress: React.PropTypes.func,
+  style: React.PropTypes.any,
+  text: React.PropTypes.string,
+  textStyle: React.PropTypes.any
+}
+
 export default Button
