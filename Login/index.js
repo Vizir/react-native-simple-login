@@ -74,6 +74,7 @@ Login.propTypes = {
   onLogin: React.PropTypes.func.isRequired,
   onResetPassword: React.PropTypes.func,
   passwordInputIcon: React.PropTypes.any,
+  resetPasswordHeaderRenderer: React.PropTypes.func,
   showLogoOnLogin: React.PropTypes.bool,
   showLogoOnResetPassword: React.PropTypes.bool,
   userIdentificationInputIcon: React.PropTypes.any,

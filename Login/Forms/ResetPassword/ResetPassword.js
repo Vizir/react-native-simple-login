@@ -9,15 +9,25 @@ class ResetPassword extends BaseForm {
     this.props.onResetPassword(this.state.userIdentification)
   }
 
+  renderHeader = () => {
+    if (this.props.resetPasswordHeaderRenderer) {
+      return this.props.resetPasswordHeaderRenderer(this.props.onBackClick)
+    }
+
+    return (
+      <Button
+        onPress={this.props.onBackClick}
+        style={this.props.backButtonStyle}
+        textStyle={this.props.backButtonTextStyle}
+        text={this.props.labels.back}
+      />
+    )
+  }
+
   render () {
     return (
       <View style={this.props.resetPasswordFormWrapperStyle}>
-        <Button
-          onPress={this.props.onBackClick}
-          style={this.props.backButtonStyle}
-          textStyle={this.props.backButtonTextStyle}
-          text={this.props.labels.back}
-        />
+        { this.renderHeader() }
 
         { this.renderLogo() }
 
