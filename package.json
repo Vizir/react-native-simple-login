@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-login",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Login component for react-native",
   "main": "index.js",
   "repository": {
