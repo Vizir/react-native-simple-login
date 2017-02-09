@@ -1,5 +1,7 @@
 # react-native-simple-login
 
+![alt text](simpleLogin.jpg "Simple Login - React Native")
+
 > Login component for react-native
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![Build Status](https://travis-ci.org/Vizir/react-native-simple-login.svg?branch=master)](https://travis-ci.org/Vizir/react-native-simple-login)
