@@ -39,6 +39,25 @@ const onResetPassword = (email) => {
 />
 
 ```
+##for using user defined keyboard like default or phone-pad
+import Login from 'react-native-simple-login'
+
+...
+
+const onLogin = (email, password) => {
+  console.log(email, password) // user credentials
+}
+
+const onResetPassword = (email) => {
+  console.log(email)
+}
+
+<Login
+  onLogin={onLogin}
+  onResetPassword={onResetPassword}
+  keyboardType={'phone-pad'}
+/>
+```
 
 Will output:
 
