@@ -14,6 +14,7 @@ const Input = (props) => {
         {...props}
         placeholder={props.label}
         underlineColorAndroid='transparent'
+        keyboardType={props.keyboardType}
       />
     </View>
   )
@@ -23,7 +24,8 @@ Input.propTypes = {
   icon: React.PropTypes.any,
   iconStyle: React.PropTypes.any,
   label: React.PropTypes.string,
-  wrapperStyle: React.PropTypes.any
+  wrapperStyle: React.PropTypes.any,
+  keyboardType: React.PropTypes.string
 }
 
 export default Input
