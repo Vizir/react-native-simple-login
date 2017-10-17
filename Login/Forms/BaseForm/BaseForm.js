@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 import { Logo } from '../../Structure'
 
@@ -25,9 +26,9 @@ class BaseForm extends Component {
 }
 
 BaseForm.propTypes = {
-  logoStyle: React.PropTypes.any,
-  logoImage: React.PropTypes.any,
-  showLogo: React.PropTypes.bool
+  logoStyle: PropTypes.any,
+  logoImage: PropTypes.any,
+  showLogo: PropTypes.bool
 }
 
 export default BaseForm

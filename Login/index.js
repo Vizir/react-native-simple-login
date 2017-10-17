@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import DefaultStyles from './DefaultStyles'
 import defaultLabels from './constants/defaultLabels'
 
@@ -69,34 +70,34 @@ class Login extends Component {
 }
 
 Login.propTypes = {
-  labels: React.PropTypes.object,
-  logoImage: React.PropTypes.any,
-  onLogin: React.PropTypes.func.isRequired,
-  onResetPassword: React.PropTypes.func,
-  passwordInputIcon: React.PropTypes.any,
-  resetPasswordHeaderRenderer: React.PropTypes.func,
-  showLogoOnLogin: React.PropTypes.bool,
-  showLogoOnResetPassword: React.PropTypes.bool,
-  userIdentificationInputIcon: React.PropTypes.any,
-  inputPlaceholderTextColor: React.PropTypes.string,
+  labels: PropTypes.object,
+  logoImage: PropTypes.any,
+  onLogin: PropTypes.func.isRequired,
+  onResetPassword: PropTypes.func,
+  passwordInputIcon: PropTypes.any,
+  resetPasswordHeaderRenderer: PropTypes.func,
+  showLogoOnLogin: PropTypes.bool,
+  showLogoOnResetPassword: PropTypes.bool,
+  userIdentificationInputIcon: PropTypes.any,
+  inputPlaceholderTextColor: PropTypes.string,
 
-  backButtonStyle: React.PropTypes.any,
-  backButtonTextStyle: React.PropTypes.any,
-  baseButtonStyle: React.PropTypes.any,
-  baseButtonTextStyle: React.PropTypes.any,
-  inputIconStyle: React.PropTypes.any,
-  loginResetPasswordLinkStyle: React.PropTypes.any,
-  loginResetPasswordLinkTextStyle: React.PropTypes.any,
-  fieldsetWrapperStyle: React.PropTypes.any,
-  inputWrapperStyle: React.PropTypes.any,
-  inputStyle: React.PropTypes.any,
-  loginFormSubmitButtonStyle: React.PropTypes.any,
-  loginFormSubmitButtonTextStyle: React.PropTypes.any,
-  loginFormWrapperStyle: React.PropTypes.any,
-  logoStyle: React.PropTypes.any,
-  resetPasswordFormWrapperStyle: React.PropTypes.any,
-  resetPasswordFormSubmitButtonTextStyle: React.PropTypes.any,
-  resetPasswordFormSubmitButtonStyle: React.PropTypes.any
+  backButtonStyle: PropTypes.any,
+  backButtonTextStyle: PropTypes.any,
+  baseButtonStyle: PropTypes.any,
+  baseButtonTextStyle: PropTypes.any,
+  inputIconStyle: PropTypes.any,
+  loginResetPasswordLinkStyle: PropTypes.any,
+  loginResetPasswordLinkTextStyle: PropTypes.any,
+  fieldsetWrapperStyle: PropTypes.any,
+  inputWrapperStyle: PropTypes.any,
+  inputStyle: PropTypes.any,
+  loginFormSubmitButtonStyle: PropTypes.any,
+  loginFormSubmitButtonTextStyle: PropTypes.any,
+  loginFormWrapperStyle: PropTypes.any,
+  logoStyle: PropTypes.any,
+  resetPasswordFormWrapperStyle: PropTypes.any,
+  resetPasswordFormSubmitButtonTextStyle: PropTypes.any,
+  resetPasswordFormSubmitButtonStyle: PropTypes.any
 }
 
 Login.defaultProps = {
