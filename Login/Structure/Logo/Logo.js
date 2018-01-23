@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Image } from 'react-native'
 
 const Logo = (props) => {
@@ -12,8 +13,8 @@ const Logo = (props) => {
 }
 
 Logo.propTypes = {
-  style: React.PropTypes.any,
-  image: React.PropTypes.any
+  style: PropTypes.any,
+  image: PropTypes.any
 }
 
 export default Logo
