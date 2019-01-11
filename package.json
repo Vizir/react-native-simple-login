@@ -20,9 +20,11 @@
   ],
   "author": "Thiago Porto",
   "license": "MIT",
-  "dependencies": {
-    "react": ">=15.4.1",
+  "peerDependencies": {
     "react-native": ">=0.38.0"
+  },
+  "dependencies": {
+    "react": ">=15.4.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
