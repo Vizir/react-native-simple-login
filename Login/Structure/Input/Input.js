@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react'
 import { View, TextInput, Image } from 'react-native'
 
@@ -20,10 +21,10 @@ const Input = (props) => {
 }
 
 Input.propTypes = {
-  icon: React.PropTypes.any,
-  iconStyle: React.PropTypes.any,
-  label: React.PropTypes.string,
-  wrapperStyle: React.PropTypes.any
+  icon: PropTypes.any,
+  iconStyle: PropTypes.any,
+  label: PropTypes.string,
+  wrapperStyle: PropTypes.any
 }
 
 export default Input
